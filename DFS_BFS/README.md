@@ -43,11 +43,13 @@ Write a program to:
 
 ## 📂 File Structure
 
+```bash
 DFS_BFS/ 
     │ 
     ├── main.cpp # C++ implementation 
     ├── main.py # Python implementation 
     └── README.md # This file
+```
 
 ---
 
