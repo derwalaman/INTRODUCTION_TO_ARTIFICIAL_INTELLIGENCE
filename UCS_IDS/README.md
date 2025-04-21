@@ -41,6 +41,18 @@ To implement **Uniform Cost Search (UCS)** and **Iterative Deepening Search (IDS
 
 ---
 
+## 📂 File Structure
+
+```bash
+UCS_IDS/ 
+    │ 
+    ├── main.cpp # C++ implementation 
+    ├── main.py # Python implementation 
+    └── README.md # This file
+```
+
+---
+
 ## 🧪 Sample Graph Used
 ```bash
 A-----B-----C
@@ -65,22 +77,26 @@ Agent: Agent 1 | Start: A | Goal: F
 
 🔵 Uniform Cost Search (UCS):   
                 Path: A → B → E → F 
-                Cost: 5 Nodes Explored: 6
+                Cost: 5 
+                Nodes Explored: 6
 
 🟠 Iterative Deepening Search (IDS):  
                 Path: A → B → C → F 
-                Cost: 9 Nodes Explored: 4
+                Cost: 9 
+                Nodes Explored: 4
 
 *********************************************
 Agent: Agent 2 | Start: D | Goal: C
 
 🔵 Uniform Cost Search (UCS): 
                 Path: D → A → B → C 
-                Cost: 6 Nodes Explored: 6
+                Cost: 6 
+                Nodes Explored: 6
 
 🟠 Iterative Deepening Search (IDS): 
                 Path: D → A → B → C 
-                Cost: 6 Nodes Explored: 4
+                Cost: 6 
+                Nodes Explored: 4
 ```
 
 
@@ -96,16 +112,6 @@ Agent: Agent 2 | Start: D | Goal: C
 
 ---
 
-## 📂 Files Included
-
-| File Name             | Description                           |
-|-----------------------|---------------------------------------|
-| `assignment2.cpp`     | C++ implementation with UCS & IDS     |
-| `assignment2.py`      | Python implementation with same logic |
-| `README.md`           | This documentation file               |
-
----
-
 ## 💡 Conclusion
 
 - **UCS** is best when optimal path cost is required.
@@ -113,12 +119,3 @@ Agent: Agent 2 | Start: D | Goal: C
 - Choosing the right algorithm depends on your application needs.
 
 ---
-
-## ✨ Future Scope
-
-- Visualize paths on a map using Next.js frontend.
-- Compare with A*, Greedy, Dijkstra, etc.
-- Track real-time agent movement.
-
----
-
