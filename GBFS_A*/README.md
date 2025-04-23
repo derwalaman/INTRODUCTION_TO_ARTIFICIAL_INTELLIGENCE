@@ -86,6 +86,8 @@ National Institute of Technology, Delhi
 ---
 
 ## 📁 File Structure
+```bash
 GBFS_A*
 ├── main.cpp # C++ implementation of GBFS and A* Search 
 └── README.md # You're here!
+```
