@@ -26,28 +26,28 @@ This project implements a two-player Tic-Tac-Toe game where the user plays as 'X
    git clone https://github.com/yourusername/tic-tac-toe-minimax.git
 2. Navigate to the project folder:
 
-```bash
-cd tic-tac-toe-minimax
-```
+    ```bash
+    cd tic-tac-toe-minimax
+    ```
 3. Compile the C++ code:
-```bash
-g++ -o tic_tac_toe main.cpp
-```
+    ```bash
+    g++ -o tic_tac_toe main.cpp
+    ```
 
 4. Run the program:
-```bash
-./tic_tac_toe
-```
+    ```bash
+    ./tic_tac_toe
+    ```
 
 ## Board Representation
 - The board is represented as a 2D array:
-```bash 
-char board[3][3] = {
-    {'_', '_', '_'},
-    {'_', '_', '_'},
-    {'_', '_', '_'}
-};
-```
+    ```bash 
+    char board[3][3] = {
+        {'_', '_', '_'},
+        {'_', '_', '_'},
+        {'_', '_', '_'}
+    };
+    ```
 - _ represents an empty cell.
 
 - X represents the user's move.
