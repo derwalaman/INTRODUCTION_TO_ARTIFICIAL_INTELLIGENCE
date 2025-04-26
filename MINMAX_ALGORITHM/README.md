@@ -72,14 +72,14 @@ This project implements a two-player Tic-Tac-Toe game where the user plays as 'X
 ## Minimax Algorithm
 - The Minimax algorithm is a recursive function that generates a game tree, exploring all possible moves and outcomes:
 
-- - The AI maximizes its score, trying to get the highest possible score (a win).
+    - The AI maximizes its score, trying to get the highest possible score (a win).
 
-- - The user tries to minimize the AI's score (aiming to win).
+    - The user tries to minimize the AI's score (aiming to win).
 
 - The score is assigned as follows:
 
-- - 10: AI wins
+    - 10: AI wins
 
-- - -10: User wins
+    - -10: User wins
 
-- - 0: Draw
+    - 0: Draw
