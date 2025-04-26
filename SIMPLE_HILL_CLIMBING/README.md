@@ -1,4 +1,4 @@
-# 🚀 Assignment 5: Simple Hill Climbing for Grid-Based Pathfinding
+# 🚀 Assignment 4: Simple Hill Climbing for Grid-Based Pathfinding
 
 ## 🎯 Aim
 
@@ -95,7 +95,7 @@ Completeness | ❌ Not complete (may fail if stuck in dead-end)
 
 ## 📁 File Structure
 ```bash 
-hill_climbing/
+SIMPLE_HILL_CLIMBING/
 │
 ├── main.cpp            # C++ implementation of the Simple Hill Climbing algorithm
 ├── README.md           # Project documentation (you are here)
